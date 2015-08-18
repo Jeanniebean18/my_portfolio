@@ -109,6 +109,7 @@ body {
   display:block;
   width:73%;
   margin-bottom:60px;
+  padding-left:10px;
 /*  border:1px solid;*/
 }
 
@@ -241,7 +242,7 @@ button {
   width:425px;
   height:450px;
   float:left;
-  background-color:rgba(236,73,76,.3);
+  background-color:rgba(236,73,76,.8);
   z-index:100;
   visibility:hidden;
   
@@ -267,7 +268,7 @@ button {
   width:425px;
   height:200px;
   float:left;
-  background-color:rgba(236,73,76,.3);
+  background-color:rgba(236,73,76,.8);
   z-index:100;
   visibility:hidden;
   
