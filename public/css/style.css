@@ -169,7 +169,7 @@ h1.last {
  
  h2.last {
    color:#2A2B45;
-    font-weight:600;
+    font-weight:800;
     text-align:center;
   }
  
@@ -185,6 +185,67 @@ h1.last {
    
  }
 
+ .rue-pics {
+   display:block;
+   position:absolute;
+   top:0;
+   right:0;
+   width:50%;
+   height:500px;
+/*   border:1px solid;*/
+ }
+ 
+ .rue1 {
+   position:relative;
+   width:250px;
+   height:250px;
+   float:left;
+   background-image:url("../assets/rue4.png");
+   background-size:cover;
+   -webkit-background-size:cover;
+   -moz-background-size:cover;
+   -o-background-size:cover;
+   background-position:50% 50%;
+ }
+ 
+ .rue2 {
+   position:relative;
+   float:left;
+   width:250px;
+   height:250px;
+   background-image:url("../assets/rue1.png");
+   background-size:cover;
+   -webkit-background-size:cover;
+   -moz-background-size:cover;
+   -o-background-size:cover;
+   background-position:50% 50%;
+ }
+ 
+ .rue3 {
+   position:relative;
+   float:left;
+   width:250px;
+   height:250px;
+   background-image:url("../assets/rue2.png");
+   background-size:cover;
+   -webkit-background-size:cover;
+   -moz-background-size:cover;
+   -o-background-size:cover;
+   background-position:50% 50%;
+ }
+ 
+ .rue4 {
+   position:relative;
+   float:left;
+   width:250px;
+   height:250px;
+   background-image:url("../assets/rue3.png");
+   background-size:cover;
+   -webkit-background-size:cover;
+   -moz-background-size:cover;
+   -o-background-size:cover;
+   background-position:50% 50%;
+ }
 
 
 
@@ -198,14 +259,52 @@ h1.last {
   width:40px;
 }
 
+h3 {
+  position:relative;
+  margin-top:20%;
+  font-family: 'Josefin Sans', sans-serif;
+  color:white;
+  font-size:30px;
+  font-weight:400;
+  text-align:center;
+  line-height:0;
+}
+
+h3.first {
+  margin-top:50%;
+}
+
+h3.last {
+  top:-30%;
+
+}
+
+
+h4.last {
+  top:-45%;
+
+
+}
+
+h4 {
+  position:relative;
+  margin-top:-11%;
+  font-family: 'Josefin Sans', sans-serif;
+  color:white;
+  font-size:20px;
+  font-weight:100;
+  text-align:center;
+  line-height:0;
+  
+}
 button {
-  background-color:#EC494C;
+  background-color:#2A2B45;
   border:none;
   font-family: 'Josefin Sans', sans-serif;
   color:white;
   font-size:39px;
   font-weight:400;
-  padding:1%;
+  padding:3%;
   top:50%;
 }
 /*work */
@@ -219,6 +318,7 @@ button {
 }
 
 #work-one {
+  position:relative;
   width:425px;
   height:450px;
   float:left;
@@ -243,11 +343,15 @@ button {
   visibility:visible;
 }
 
+
+#work-four:hover > .work-overlay-three {
+  visibility:visible;
+}
 .work-overlay {
   width:425px;
   height:450px;
   float:left;
-  background-color:rgba(236,73,76,.8);
+  background-color:rgba(236,73,76,.98);
   z-index:100;
   visibility:hidden;
   
@@ -273,7 +377,17 @@ button {
   width:425px;
   height:200px;
   float:left;
-  background-color:rgba(236,73,76,.8);
+  background-color:rgba(236,73,76,.98);
+  z-index:100;
+  visibility:hidden;
+  
+}
+
+.work-overlay-three {
+  width:100%;
+  height:250px;
+  float:left;
+  background-color:rgba(236,73,76,.98);
   z-index:100;
   visibility:hidden;
   
@@ -289,6 +403,7 @@ button {
 }
 
 #work-four {
+  position:relative;
   width:900px;
   height:250px;
  background-color:#FFD242;
@@ -304,7 +419,8 @@ button {
   background-color:#EC494C;
   height:500px;
   width:100%;
-  z-index:500;
+  z-index:501;
+/*  border:1px solid;*/
   
 }
 
