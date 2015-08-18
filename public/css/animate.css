@@ -42,12 +42,16 @@
 
 .delay3 {
   animation-delay:3s;
-  -web-kit-animation-delay:7s;
+  -web-kit-animation-delay:3s;
 }
 
 .delay4 {
-  animation-delay:2s;
-  -web-kit-animation-delay:2s;
+  animation-delay:4s;
+  -web-kit-animation-delay:4s;
+}
+.delay6 {
+  animation-delay:7s;
+  -web-kit-animation-delay:7s;
 }
 
 .animated.zoomIn {
@@ -505,4 +509,51 @@
   animation-name: bounce;
   -webkit-transform-origin: center bottom;
   transform-origin: center bottom;
+}
+
+.blades {
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 200px 100px;
+   -moz-transform:none;
+  transform-origin: 50% 50%;
+  transition: transform 2s ease-out;
+ 
+}
+
+
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform:rotate(-360deg);
+  }
+  60% {
+    -webkit-transform:rotate(20deg);
+  }
+
+}
+@-moz-keyframes rotate {
+  0% {
+    -moz-transform:none;
+  }
+  60% {
+    -moz-transform:none;
+  }
+}
+
+}
+@keyframes rotate {
+0% {
+  transform:rotate(-360deg);
+}
+60% {
+  transform:rotate(20deg);
+}
+}
+
+.grow {
+-webkit-animation: rotate 5s ease-out backwards;
+-moz-animation: rotate 5s ease-out backwards;
+animation: rotate 5s ease-out backwards;
+animation-delay:2s;
+-web-kit-animation-delay:2s;
 }
