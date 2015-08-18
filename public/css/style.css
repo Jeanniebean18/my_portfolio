@@ -106,17 +106,22 @@ body {
 
 
 #headline {
-  display:block;
-  width:73%;
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  width:100%;
   margin-bottom:60px;
-  padding-left:10px;
+  
 /*  border:1px solid;*/
 }
 
 #headline-two {
   position:relative;
-  display:block;
-  width:68%;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  width:100%;
   margin-bottom:60px;
   margin-top:60px;
   visibility:hidden;
@@ -175,7 +180,7 @@ h1.last {
    color:white;
    font-size:20px;
    font-weight:400;
-   text-align:right;
+   text-align:center;
    line-height:0;
    
  }
