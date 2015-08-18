@@ -1,5 +1,5 @@
 /*rgba(123,110,172,.8)*/
-
+@import "animate.css";
 
 html {
   box-sizing: border-box;
@@ -11,7 +11,7 @@ html {
 #home {
   position:relative;
   width: 100%;
-  
+/*  border:1px solid white;*/
 }
 
 a {
@@ -61,7 +61,7 @@ body {
   top:0;
   display:block;
   width:100%;
-  height:750px;
+  height:755px;
   background-image:url("../assets/jeannie.jpg");
   background-size:cover;
   -webkit-background-size:cover;
@@ -71,11 +71,19 @@ body {
   z-index:0;
 }
 
+#triangle {
+  position:fixed;
+  bottom:-5px;
+  width:80%;
+  z-index:200;
+  
+}
+
 #overlay {
   position:fixed;
   top:0;
   width:100%;
-  height:750px;
+  height:755px;
   background-color:rgba(42,43,69,.90);
   z-index:1;
   display:none;
@@ -97,12 +105,7 @@ body {
   z-index:5;
 }
 
-#triangle {
-  position:absolute;
-  bottom:0;
-  width:80%;
-  
-}
+
 
 .logo-two {
   position:absolute;
@@ -119,6 +122,7 @@ body {
   text-align:center;
   width:100%;
   margin-bottom:60px;
+  margin-top:50px;
   
 /*  border:1px solid;*/
 }
@@ -130,7 +134,7 @@ body {
   text-align:center;
   width:100%;
   margin-bottom:60px;
-  margin-top:60px;
+  padding-top:70px;
   visibility:hidden;
 /*  border:1px solid;*/
 }
@@ -204,16 +208,38 @@ h1.last {
  
  .rue1 {
    position:relative;
-   width:250px;
-   height:250px;
-   float:left;
-   background-image:url("../assets/rue4.png");
+   width:500px;
+   height:500px;
+   
+   background-image:url("../assets/rue1.png");
    background-size:cover;
    -webkit-background-size:cover;
    -moz-background-size:cover;
    -o-background-size:cover;
    background-position:50% 50%;
  }
+ 
+
+ 
+ #scroll {
+   position:absolute;
+   bottom:-11px;
+   right:43%;
+   width:75px;
+   z-index:500;
+ }
+ 
+/* #scroll:hover {
+   -webkit-animation-name: bounce;
+   animation-name: bounce;
+   -webkit-transform-origin: center bottom;
+   transform-origin: center bottom;
+   -webkit-animation-duration: 1s;
+   animation-duration: 1s;
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both;
+
+ }*/
  
  .rue2 {
    position:relative;
@@ -268,7 +294,7 @@ h1.last {
 
 h3 {
   position:relative;
-  margin-top:20%;
+  margin-top:30%;
   font-family: 'Josefin Sans', sans-serif;
   color:white;
   font-size:30px;
@@ -278,7 +304,7 @@ h3 {
 }
 
 h3.first {
-  margin-top:50%;
+  margin-top:60%;
 }
 
 h3.last {
@@ -295,7 +321,7 @@ h4.last {
 
 h4 {
   position:relative;
-  margin-top:-11%;
+  margin-top:-22%;
   font-family: 'Josefin Sans', sans-serif;
   color:white;
   font-size:20px;
@@ -327,7 +353,7 @@ button {
 #work-one {
   position:relative;
   width:425px;
-  height:450px;
+  height:550px;
   float:left;
 /*  background-color:#FFD242;*/
   z-index:100;
@@ -359,7 +385,7 @@ button {
 }
 .work-overlay {
   width:425px;
-  height:450px;
+  height:550px;
   float:left;
   background-color:rgba(236,73,76,.98);
   z-index:100;
@@ -372,7 +398,7 @@ button {
 
 #work-two {
   width:425px;
-  height:200px;
+  height:250px;
   float:right;
   background-image:url("../assets/work-two.jpg");
   background-size:cover;
@@ -387,7 +413,7 @@ button {
 
 .work-overlay-two {
   width:425px;
-  height:200px;
+  height:250px;
   float:left;
   background-color:rgba(236,73,76,.98);
   z-index:100;
@@ -407,14 +433,14 @@ button {
 
 #work-three {
   width:425px;
-  height:200px;
+  height:250px;
   float:right;
-  background-image:url("../assets/pawmate.png");
+  background-image:url("../assets/work-three.png");
   background-size:cover;
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
-  background-position:50% 30%;
+  background-position:50% 15%;
   z-index:100;
   margin-bottom:50px;
    visibility:hidden;
@@ -466,6 +492,7 @@ button {
 
 footer {
   position:relative;
+  
   display:block;
   background-color:#2A2B45;
   height:200px;

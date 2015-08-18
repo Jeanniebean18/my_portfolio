@@ -11,6 +11,8 @@ var headline=document.getElementById("headline");
 var headlineTwo=document.getElementById("headline-two");
 var triangle=document.getElementById("triangle");
 
+var scrollOne=document.getElementById("scroll");
+
 // var studentTwo=document.getElementById("student_quote_two");
 
 
@@ -28,14 +30,19 @@ var triangle=document.getElementById("triangle");
         // hero.setAttribute("class","animated fadeIn");
         logo.setAttribute("class","animated fadeIn logo-two");
         overlay.style.display="block";
+        
         overlay.setAttribute("class","animated longer fadeIn");
         triangle.setAttribute("class","animated fadeOut triangle");
+        scrollOne.setAttribute("class","animated fadeOut");
+        
       
         
       }  else {
         logo.setAttribute("class","logo");
         overlay.setAttribute("class","animated fadeOut");
         triangle.setAttribute("class","animated fadeIn triangle");
+        scrollOne.style.display="block";
+        scrollOne.setAttribute("class","animated slideInUp");
       }
       
    
