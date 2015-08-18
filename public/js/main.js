@@ -6,6 +6,7 @@ var workOne=document.getElementById("work-one");
 var workTwo=document.getElementById("work-two");
 var workThree=document.getElementById("work-three");
 var workFour=document.getElementById("work-four");
+var workFive=document.getElementById("work-five");
 var headline=document.getElementById("headline");
 var headlineTwo=document.getElementById("headline-two");
 var triangle=document.getElementById("triangle");
@@ -59,6 +60,8 @@ var triangle=document.getElementById("triangle");
 
           workFour.style.visibility="visible";
           workFour.setAttribute("class","animated fadeIn");
+          workFive.style.visibility="visible";
+          workFive.setAttribute("class","animated fadeIn delay1");
           
         }
         
