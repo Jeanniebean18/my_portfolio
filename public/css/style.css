@@ -354,6 +354,9 @@ button {
 #work-four:hover > .work-overlay-three {
   visibility:visible;
 }
+#work-five:hover > .work-overlay-three {
+  visibility:visible;
+}
 .work-overlay {
   width:425px;
   height:450px;
@@ -371,7 +374,7 @@ button {
   width:425px;
   height:200px;
   float:right;
-  background-image:url("../assets/workTwo.png");
+  background-image:url("../assets/work-two.jpg");
   background-size:cover;
   -webkit-background-size:cover;
   -moz-background-size:cover;
@@ -421,9 +424,14 @@ button {
   position:relative;
   width:425px;
   height:250px;
- background-color:#FFD242;
   z-index:100;
   float:left;
+  background-image:url("../assets/work-four.jpg");
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-position:50% 30%;
   margin-bottom:50px;
   visibility:hidden;
 }
@@ -433,11 +441,15 @@ button {
   display:block;
   width:425px;
   height:250px;
-  background-color:#FFD242;
-  z-index:500;
   float:right;
+  background-image:url("../assets/work-five.svg");
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-position:50% 30%;
   margin-bottom:50px;
-  visibility:visible;
+  visibility:hidden;
   
 }
 
