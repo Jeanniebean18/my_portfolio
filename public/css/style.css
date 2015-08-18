@@ -107,9 +107,9 @@ body {
 
 #headline {
   display:block;
-  width:70%;
+  width:73%;
   margin-bottom:60px;
-  border:1px solid;
+/*  border:1px solid;*/
 }
 
 #headline-two {
