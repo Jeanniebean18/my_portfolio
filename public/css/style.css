@@ -107,7 +107,7 @@ body {
 
 #headline {
   display:block;
-  width:68%;
+  width:70%;
   margin-bottom:60px;
   border:1px solid;
 }
@@ -119,7 +119,7 @@ body {
   margin-bottom:60px;
   margin-top:60px;
   visibility:hidden;
-  border:1px solid;
+/*  border:1px solid;*/
 }
 
 #headline-three {
@@ -129,7 +129,7 @@ body {
   margin-bottom:60px;
   top:40%;
   margin-left:50px;
-  border:1px solid;
+/*  border:1px solid;*/
 }
 
 h1 {
