@@ -14,6 +14,11 @@ html {
   
 }
 
+a {
+  text-decoration:none;
+  color:white;
+}
+
 header {
   position:fixed;
   top:0;
@@ -57,7 +62,7 @@ body {
   display:block;
   width:100%;
   height:750px;
-  background-image:url("../assets/header5.jpg");
+  background-image:url("../assets/jeannie.jpg");
   background-size:cover;
   -webkit-background-size:cover;
   -moz-background-size:cover;
@@ -187,7 +192,16 @@ h1.last {
   width:40px;
 }
 
-
+button {
+  background-color:#EC494C;
+  border:none;
+  font-family: 'Josefin Sans', sans-serif;
+  color:white;
+  font-size:39px;
+  font-weight:400;
+  padding:1%;
+  top:50%;
+}
 /*work */
 
 #wrapper {
@@ -213,11 +227,32 @@ h1.last {
   background-position:50% 50%;
 }
 
+#work-one:hover > .work-overlay {
+  visibility:visible;
+}
+#work-two:hover > .work-overlay-two {
+  visibility:visible;
+}
+#work-three:hover > .work-overlay-two {
+  visibility:visible;
+}
+
+.work-overlay {
+  width:425px;
+  height:450px;
+  float:left;
+  background-color:rgba(236,73,76,.3);
+  z-index:100;
+  visibility:hidden;
+  
+}
+
+
 #work-two {
   width:425px;
   height:200px;
   float:right;
-  background-image:url("../assets/workTwo.jpg");
+  background-image:url("../assets/workTwo.png");
   background-size:cover;
   -webkit-background-size:cover;
   -moz-background-size:cover;
@@ -226,6 +261,16 @@ h1.last {
   z-index:100;
   margin-bottom:50px;
    visibility:hidden;
+}
+
+.work-overlay-two {
+  width:425px;
+  height:200px;
+  float:left;
+  background-color:rgba(236,73,76,.3);
+  z-index:100;
+  visibility:hidden;
+  
 }
 
 #work-three {
