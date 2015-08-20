@@ -259,7 +259,7 @@ h1.last {
  
  #scroll {
    position:absolute;
-   bottom:10px;
+   bottom:40px;
    right:43%;
    width:75px;
    z-index:500;
