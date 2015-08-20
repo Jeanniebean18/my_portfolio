@@ -11,7 +11,7 @@ html {
 #home {
   position:relative;
   width: 100%;
-/*  border:1px solid white;*/
+  /*  border:1px solid white;*/
 }
 
 a {
@@ -143,27 +143,26 @@ body {
   margin-bottom:60px;
   margin-top:50px;
   
-/*  border:1px solid;*/
+  /*  border:1px solid;*/
 }
 
 #headline-three {
-  position:absolute;
+  position:relative;
   display:block;
-  width:45%;
-  top:35%;
-  margin-left:190px;
+  width:40%;
+  margin-left:10%;
+  margin-top:10%;
 /*  border:1px solid;*/
+  float:left;
 }
 
 #headline-four {
-  position:absolute;
-  top:0;
-  right:0;
+  position:relative;
   display:block;
-  
-  width:45%;
-  top:70%;
-  margin-left:30px;
+  float:right;
+  margin-right:6%;
+  width:40%;
+  margin-top:25%;
 /*  border:1px solid;*/
 }
 
@@ -181,49 +180,49 @@ h1 {
 
 h1.last {
   color:white;
-   font-weight:600;
-   text-align:center;
- }
+  font-weight:600;
+  text-align:center;
+}
  
- h2 {
-   font-family: 'Josefin Sans', sans-serif;
-   color:white;
-   font-size:460%;
-   font-weight:200;
-   text-align:center;
-   opacity:.98;
-   z-index:500;
-   display:inline;
- }
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  color:white;
+  font-size:460%;
+  font-weight:200;
+  text-align:center;
+  opacity:.98;
+  z-index:500;
+  display:inline;
+}
  
- h2.last {
-   color:#2A2B45;
-    font-weight:800;
-    text-align:center;
-  }
+h2.last {
+  color:#2A2B45;
+  font-weight:800;
+  text-align:center;
+}
  
  
  
- p {
-   font-family: 'Josefin Sans', sans-serif;
-   color:white;
-   font-size:25px;
-   font-weight:400;
-   text-align:center;
-   line-height:5px;
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  color:white;
+  font-size:25px;
+  font-weight:400;
+  text-align:center;
+  line-height:5px;
    
- }
+}
 
- #scroll {
-   position:absolute;
-   bottom:60px;
-   right:43%;
-   width:60px;
-   z-index:500;
- }
+#scroll {
+  position:absolute;
+  bottom:60px;
+  right:43%;
+  width:60px;
+  z-index:500;
+}
  
 
- #social {
+#social {
   position:absolute;
   top:20px;
   right:30px;
@@ -278,7 +277,7 @@ h4 {
 
 #work {
   width:100%;
-/*  border:1px solid;*/
+  /*  border:1px solid;*/
   
 }
 
@@ -300,7 +299,7 @@ button {
   position:relative;
   width:900px;
   max-width:1280px;
-/*  border:1px solid;*/
+  /*  border:1px solid;*/
   z-index:100;
 }
 
@@ -309,7 +308,7 @@ button {
   width:425px;
   height:550px;
   float:left;
-/*  background-color:#FFD242;*/
+  /*  background-color:#FFD242;*/
   z-index:100;
   visibility:hidden;
   background-image:url("../assets/workOne.jpg");
@@ -359,7 +358,7 @@ button {
   background-position:50% 50%;
   z-index:100;
   margin-bottom:50px;
-   visibility:hidden;
+  visibility:hidden;
 }
 
 .work-overlay-two {
@@ -394,7 +393,7 @@ button {
   background-position:50% 15%;
   z-index:100;
   margin-bottom:50px;
-   visibility:hidden;
+  visibility:hidden;
 }
 
 #work-four {
@@ -433,24 +432,24 @@ button {
 #rue {
   position:relative;
   display:block;
-/*  background-color:#EC494C;*/
+  /*  background-color:#EC494C;*/
   height:500px;
   width:100%;
   z-index:501;
-/*  border:1px solid;*/
+  /*  border:1px solid;*/
   
 }
 
- #headline-two {
-   position:relative;
-   margin-left:auto;
-   margin-right:auto;
-   text-align:center;
-   width:100%;
-   padding-top:70px;
-   visibility:hidden;
+#headline-two {
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  width:100%;
+  padding-top:70px;
+  visibility:hidden;
 
- }
+}
 
 footer {
   position:absolute;
@@ -458,109 +457,118 @@ footer {
   display:block;
   background-color:#2A2B45;
   height:200px;
+  margin-top:100px;
   width:100%;
   z-index:700;
   text-align:center;
   
 }
 
-@media (max-width: 1024px) {
-  #work-one,
-  #work-two,
-  #work-three,
-  #work-four,
-  #work-five {
-    float:none;
-  }
+@media (max-width: 1173px) {
   
-  #work-one {
-    margin-bottom:50px;
-  }
-  
-  #work {
-    width:440px;
-/*    border:1px solid;*/
-  
-  }
-  
-  #headline-three {
-    position:absolute;
-    display:block;
-    width:45%;
-    top:19%;
-    margin-left:80px;
-  /*  border:1px solid;*/
-  }
 
-  #headline-four {
-    position:absolute;
-    top:0;
-    right:0;
-    display:block;
-    width:40%;
-    top:50%;
-    margin-left:30px;
-  /*  border:1px solid;*/
-  }
+
+
+  @media (max-width: 1024px) {
+    #work-one,
+    #work-two,
+    #work-three,
+    #work-four,
+    #work-five {
+      float:none;
+    }
   
-  footer {
-    
-    
-    position:absolute;
-    padding-top:5%;
-    display:block;
-    background-color:#2A2B45;
-    height:200px;
-    width:100%;
-    z-index:700;
-    text-align:center;
+  
+    #work-one {
+      margin-bottom:50px;
+    }
+  
+    #work {
+      width:440px;
+      /*    border:1px solid;*/
+  
+    }
+
+  
+    footer {
+      position:relative;
+      margin-top:0;
+      padding-top:5%;
+      display:block;
+      background-color:#2A2B45;
+      height:200px;
+      width:100%;
+      z-index:700;
+      text-align:center;
     
   
-  }
+    }
   
  
   
-  .hero {
-    position:relative;
-    width:100%;
-    height:770px;
-    overflow:hidden;
+    .hero {
+      position:relative;
+      width:100%;
+      height:770px;
+      overflow:hidden;
+    }
+
+
+    #hero-background {
+      position:fixed;
+      top:0;
+      display:block;
+      width:100%;
+      height:770px;
+      background-image:url("../assets/jeannie.jpg");
+      background-size:cover;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      background-position:50% 20%;
+      z-index:0;
+    }
+  
+    #overlay {
+      height:770px;
+    
+    }
   }
 
+  @media (max-width: 1011px) {
+    
+    #headline-three {
+      position:relative;
+      display:block;
+      width:46%;
+      margin-left:5%;
+      margin-top:10%;
+/*      border:1px solid;*/
+      float:left;
+    }
 
-  #hero-background {
-    position:fixed;
-    top:0;
-    display:block;
-    width:100%;
-    height:770px;
-    background-image:url("../assets/jeannie.jpg");
-    background-size:cover;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-position:50% 20%;
-    z-index:0;
+    #headline-four {
+      position:relative;
+      display:block;
+      float:right;
+      margin-right:2%;
+      width:40%;
+      margin-top:21%;
+/*      border:1px solid;*/
+    }
+
   }
   
-  #overlay {
-    height:770px;
+  @media (max-width: 890px) {
     
-  }
-}
+    h2 {
+      font-size:55px;
+    }
+    p {
+      font-size:20px;
+    }
 
-@media (max-width: 977px) {
-  #headline-four {
-    position:absolute;
-    top:0;
-    right:0;
-    display:block;
-    width:40%;
-    top:42%;
-    margin-left:30px;
-  /*  border:1px solid;*/
   }
-}
 
 
 
