@@ -164,8 +164,8 @@ body {
   display:block;
   float:right;
   width:45%;
-  margin-bottom:20px;
-  top:210px;
+  top:200px;
+  
   margin-left:50px;
 /*  border:1px solid;*/
 }
@@ -261,7 +261,7 @@ h1.last {
    position:absolute;
    bottom:60px;
    right:43%;
-   width:75px;
+   width:60px;
    z-index:500;
  }
  
