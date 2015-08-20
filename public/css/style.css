@@ -242,18 +242,7 @@ h1.last {
    
  }
  
- #headline-two {
-   position:relative;
-   margin-left:auto;
-   margin-right:auto;
-   text-align:center;
-   width:100%;
-/*   margin-top:300px;*/
-/*   margin-bottom:300px;*/
-   padding-top:70px;
-   visibility:hidden;
- /*  border:1px solid;*/
- }
+
  
 
  
@@ -528,14 +517,26 @@ button {
   
 }
 
+ #headline-two {
+   position:relative;
+   margin-left:auto;
+   margin-right:auto;
+   text-align:center;
+   width:100%;
+   padding-top:70px;
+   visibility:hidden;
+
+ }
+
 footer {
-  position:relative;
-  
+  position:absolute;
+  bottom:-360px;
   display:block;
   background-color:#2A2B45;
   height:200px;
   width:100%;
-  z-index:500;
+  z-index:700;
+  margin-top:130px;
   
 }
 
