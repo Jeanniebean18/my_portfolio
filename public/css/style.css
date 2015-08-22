@@ -70,7 +70,7 @@ body {
   top:0;
   display:block;
   width:100%;
-  height:730px;
+  height:700px;
   background-image:url("../assets/jeannie.jpg");
   background-size:cover;
   -webkit-background-size:cover;
@@ -81,11 +81,21 @@ body {
   overflow:hidden;
 }
 
+#overlay {
+  position:fixed;
+  top:0;
+  width:100%;
+  height:700px;
+  background-color:rgba(42,43,69,.90);
+  z-index:1;
+  display:none;
+}
+
 #triangle {
   position:fixed;
-  left:-400px;
-  bottom:-100px;
-  width:1180px;
+  left:-300px;
+  top:-10px;
+  width:1000px;
   z-index:200;
   
 }
@@ -104,15 +114,7 @@ body {
   visibility:hidden;
 }
 
-#overlay {
-  position:fixed;
-  top:0;
-  width:100%;
-  height:730px;
-  background-color:rgba(42,43,69,.90);
-  z-index:1;
-  display:none;
-}
+
 
 .text {
   width:40%;
