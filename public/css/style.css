@@ -493,6 +493,7 @@ footer {
        right:43%;
        width:60px;
        z-index:500;
+       display:block;
      }
    }
 
