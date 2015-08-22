@@ -44,7 +44,7 @@ function inView(){
     logo.setAttribute("class","logo");
     overlay.setAttribute("class","animated fadeOut");
     triangle.setAttribute("class","animated fadeIn triangle");
-    scrollOne.style.display="block";
+    
     scrollOne.setAttribute("class","animated slideInUp");
   }
       

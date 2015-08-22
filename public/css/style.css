@@ -1,6 +1,14 @@
 /*rgba(123,110,172,.8)*/
 @import "animate.css";
 
+
+
+   
+
+ 
+
+ 
+
 html {
   box-sizing: border-box;
 }
@@ -70,6 +78,7 @@ body {
   -o-background-size:cover;
   background-position:50% 20%;
   z-index:0;
+  overflow:hidden;
 }
 
 #triangle {
@@ -461,7 +470,7 @@ footer {
   
 }
 
-@media (max-width: 1173px) {
+
   
 
 
@@ -589,22 +598,34 @@ footer {
     
     header {
       background-color:#EC494C;
-      height:80px;
+      height:60px;
     }
+    
+    #social {
+      position:absolute;
+      top:15px;
+      right:10px;
+    }
+    .social{
+      width:30px;
+    }
+    
+    
+ 
     
     .logo {
-      width:90%;
+      width:50%;
     }
-    
     #scroll {
-      bottom:300px;
+     display:none;
+     visibility:hidden;
     }
     
     .logo-two {
       position:absolute;
       top:8px;
       left:5px;
-      width:40%;
+      width:20%;
     }
     
    
@@ -643,14 +664,10 @@ footer {
     p {
       font-size:15px;
     }
-    #scroll {
-      position:absolute;
-      bottom:60px;
-      right:80%;
-      width:60px;
-      z-index:500;
+  
+    #triangle {
+      display:none;
     }
-    
     h1 {
       
       font-size:35px;
@@ -666,10 +683,39 @@ footer {
       visibility:hidden;
 
     }
+    
+    #hero-background {
+      height:450px;
+    }
+    .logo {
+      position:absolute;
+      top:190px;
+      left:25%;
+      width:50%;
+      z-index:5;
+    }
+    
+    .hero {
+      height:450px;
+    }
     footer {
       padding-top:72px;
     }
-
+    #overlay {
+      display:block;
+    }
+    #scroll {
+      display:none;
+      visibility:hidden;
+    }
+    #work {
+      margin-top:50px;
+      padding-top:0;
+    }
+    
+    #headline {
+      margin-top:0;
+    }
   }
   
   @media (max-width: 440px) {
@@ -689,8 +735,14 @@ footer {
       width:370px;
 /*      border:1px solid;*/
     }
+    #scroll {
+     display:none;
+     visibility:hidden;
+    }
     
   }
+  
+
   
 
 
